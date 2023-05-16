@@ -1,0 +1,78 @@
+.container {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1rem;
+  }
+  
+  .blog-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-body {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary,
+  .btn-danger {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+  }
+  
+  .btn-primary:hover,
+  .btn-danger:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-group {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  .btn-group button {
+    margin: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 0.5rem;
+    }
+  
+    .blog-title {
+      font-size: 1.5rem;
+    }
+  
+    .btn-group {
+      justify-content: center;
+    }
+  
+    .btn-group button {
+      margin: 0.5rem 0;
+    }
+  }
+  
+  .delbtn {
+    margin: 0.5rem 0;
+    height:20px;
+width:83px;
+
+  }
